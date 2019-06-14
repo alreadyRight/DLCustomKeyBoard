@@ -25,9 +25,7 @@
 //是否大写
 @property (nonatomic, assign)BOOL switchCaseIsSelected;
 
-@property (nonatomic, copy)NSArray * alphabetData;
-
-@property (nonatomic, assign)BOOL isManualControl;
+@property (nonatomic, strong)NSArray * alphabetData;
 
 @end
 
@@ -94,9 +92,7 @@
 	}
 	UIView *alphabetView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, dl_ScreenWidth, keybordHeight)];
 	alphabetView.backgroundColor = bgColor;
-	if (!self.isManualControl) {
-		[self resoveDataWithType:type];
-	}
+	[self resoveDataWithType:type];
 	NSMutableArray *randomArr = [NSMutableArray arrayWithArray:self.alphabetData];
 	CGFloat crossSpacing = 5.0f;//横向间隔
 	CGFloat portraitSpaceing = 12.0f;//竖向间隔
@@ -218,6 +214,8 @@
 	[enterBtn addTarget:self action:@selector(functionBtnHighlighted:) forControlEvents:UIControlEventTouchDown];
 	[enterBtn addTarget:self action:@selector(clickEnter:) forControlEvents:UIControlEventTouchUpInside];
 	[alphabetView addSubview:enterBtn];
+	
+	
 	
 	[self addSubview:alphabetView];
 	self.alphabetView = alphabetView;
@@ -355,27 +353,20 @@
  切换大小写
  */
 - (void)switchCase:(UIButton *)sender {
-	self.isManualControl = YES;
 	sender.alpha = 1;
 	self.switchCaseIsSelected = !self.switchCaseIsSelected;
 	if (self.switchCaseIsSelected) {
 		//切换成大写
-		NSMutableArray *tempArr = [NSMutableArray arrayWithArray:self.alphabetData];
-		for (NSInteger i = 0; i < self.alphabetData.count; i++) {
-			tempArr[i] = [self.alphabetData[i] uppercaseString];
+		if (self.alphabetView) {
+			[self.alphabetView removeFromSuperview];
+			[self addAlphabetViewWithType:DLKeyboardTypeEnglishUppercase];
 		}
-		self.alphabetData = tempArr;
 	}else{
 		//切换成小写
-		NSMutableArray *tempArr = [NSMutableArray arrayWithArray:self.alphabetData];
-		for (NSInteger i = 0; i < self.alphabetData.count; i++) {
-			tempArr[i] = [self.alphabetData[i] lowercaseString];
+		if (self.alphabetView) {
+			[self.alphabetView removeFromSuperview];
+			[self addAlphabetViewWithType:DLKeyboardTypeEnglishLowercase];
 		}
-		self.alphabetData = tempArr;
-	}
-	if (self.alphabetView) {
-		[self.alphabetView removeFromSuperview];
-		[self addAlphabetViewWithType:DLKeyboardTypeEnglishUppercase];
 	}
 }
 

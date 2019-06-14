@@ -8,26 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		00717066B5AAD5C71B6CAAF69F4A305C /* Pods-DLCustomKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D5B0478676A969809CA43CD0E0F8BB /* Pods-DLCustomKeyBoard_Tests-dummy.m */; };
+		00952E7F1ECC0B25140AC12FCE4D7A6E /* DLKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D9D011ACE819D1FF8B84C0A351067B /* DLKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		058392748DB99C83243FAFEBE0BFE371 /* UIColor+DLAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C8EB4070244CF276C5AB1C23F1607 /* UIColor+DLAddtion.m */; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		11CE34D5BBA4B48BDB652A600CB8BB1E /* UIColor+DLAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DADE76635AF83D7BA27DF784A23BC2 /* UIColor+DLAddtion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		152FF004C05D4416F25780E2CA05E6A7 /* DLCustomField.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6292D6725F5C61FF87FBE12FBE0682 /* DLCustomField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F7FFD01AD0EDA7C4E0BFFF9CC22411D /* DLConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E238BA07833C901D567FB9839F2C45 /* DLConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1B7196E78CE55590230B8BCB56403940 /* DLCustomField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3B32AB098748562475F904EBEE5057 /* DLCustomField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F851276D5C8F5CDF7B6F38407CCBFA6 /* capital@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E81922B175B00D062E9354F73D4C91 /* capital@3x.png */; };
+		2B1671C31EB8923B5710C79D9A04ED0A /* capital_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2909AA4B869E39CD6A7D1122AF33D97 /* capital_select@2x.png */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		372C561C0E09BB5CAAE1E31C9EC10ED8 /* Pods-DLCustomKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BCE5D03AEFD028C2EB0F740DD417B0 /* Pods-DLCustomKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FE318D45AAD5471C360C2E2E8F5A4EE /* DLCustomKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9E4104EBC1FC03AEBA18FA6EE3519 /* DLCustomKeyBoard-dummy.m */; };
+		3768E25A09A64B4BF6ACC3BE47674485 /* DLKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1591FE14E9FA580115FDF3C837B86A /* DLKeyBoardView.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44FCCB998D7859AD8D7AD2F6BBD9FA69 /* UIColor+DLAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7AF147B6E313BA0EDD3CAB9B1BE6A8 /* UIColor+DLAddtion.m */; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
 		4AA7ACE0A0947B3FBCD96629D8A77376 /* Pods-DLCustomKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 332FBB1F54D8D3C114B88DC2E5E0A4B0 /* Pods-DLCustomKeyBoard_Example-dummy.m */; };
+		4B0F10B808C01E8BEB193A4061B9775E /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 900EEB33C0CDE5828F37897EFA963592 /* delete@2x.png */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
+		543AF1E312B704124B81AE2C6912E057 /* capital@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7661153C60AA4A96CC02D9ADCDD17BE2 /* capital@2x.png */; };
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		6EF316542A53E938FF9FDC49806EF6A3 /* DLCustomKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 915F49F48DF586EC8765381F6166E6C5 /* DLCustomKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75150CB4A124D1BEA43ABAB2F8EAA554 /* DLCustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B563883E1DF63584D0F354A424FA1 /* DLCustomField.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		9022BD076D544519B614EEA0AD7B88CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		96208231BAFA23A8180C259BC87433E8 /* DLCustomKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAC1483C552BF52D0DD4A358A0902D4 /* DLCustomKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4B3E740A8E5FAB7A0CA0FB53F1408B /* DLCustomKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E8B482FE82FBFBC6BF16352FC4AF9C /* DLCustomKeyBoard-dummy.m */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		980D0917A263E7586744D2FA53380568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
@@ -37,13 +43,14 @@
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BEAD36DCB391C5C86FF6260873A4ABB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2F0D5753F6CFFA6BDCD3376C74528B6 /* capital_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DCAC8265444BA155037A32BA650AF5 /* capital_select@3x.png */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CD59BC18BE46F881AB709D0D248301E5 /* DLConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 8987EF6A5D1D1FA2CE3265EA9155BF97 /* DLConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D7ADB8F1B15EF9A857FEF053CAA3F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		EDD0784C19131244A451E63A9E2DBCD2 /* DLKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A7F69484DB7997EC16DFEA16579015 /* DLKeyBoardView.m */; };
-		F133565D92F20DA14E94E712FF7A9DE3 /* DLCustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9773F44273F81F6C38DF8A8AC13C1 /* DLCustomField.m */; };
-		F734BBAF2267B1CA9B35FA08A4D99957 /* DLKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2475D5B545EBF36D9C5650E9F782BE /* DLKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09DDC4B10B93F983CA1F60D0CAD2046 /* DLCustomKeyBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F70B0B158BD342C479174CF13AA6BD4 /* DLCustomKeyBoard.bundle */; };
+		F86C1C9221EFB311A3850961608BA9FE /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DC8325CF574BCD429F107AD116DFB17 /* delete@3x.png */; };
+		FC7790742564A1B6860B478052101681 /* UIColor+DLAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F327203FA6FB29B03A9D69B19B0221B /* UIColor+DLAddtion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +58,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D9E79C468CB4DD913C10D467D346EC7;
+			remoteGlobalIDString = 778D742EA106DF65D57D949D23672F0D;
 			remoteInfo = DLCustomKeyBoard;
 		};
 		BE3869F7B89C5FF67F58F77A7F818B20 /* PBXContainerItemProxy */ = {
@@ -68,78 +75,100 @@
 			remoteGlobalIDString = 322307E5EFB4F10ED6285C1AB65D0E02;
 			remoteInfo = "Pods-DLCustomKeyBoard_Example";
 		};
+		EA9B7A29854DE39CA5B9EE12BF5EB78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C4115570385EB3E2DD7F333B876071;
+			remoteInfo = "DLCustomKeyBoard-DLCustomKeyBoard";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0072CA267D15D19277097A0862BE3E49 /* DLCustomKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLCustomKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0210C701B7BD18481D7A44D18726A2C0 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		068D0ED2DEE1927D478732DCC2AB0AA3 /* Pods-DLCustomKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCustomKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0776E5784243DA2E81077765E2448524 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D9D011ACE819D1FF8B84C0A351067B /* DLKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLKeyBoardView.h; path = DLCustomKeyBoard/Classes/DLKeyBoardView.h; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0ED40886DAE1EA6E5AECE52714717314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0B8F45C3666891B67C7E43D10E17EF5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1D9CA77BAC8A2DE070AE1FF85AC57DDC /* Pods-DLCustomKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLCustomKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
 		2C211CE7DB8146E958B79BC83C6508C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3B32AB098748562475F904EBEE5057 /* DLCustomField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLCustomField.h; path = DLCustomKeyBoard/Classes/DLCustomField.h; sourceTree = "<group>"; };
 		2D25F84A45ABD6459C89B466293D96C0 /* Pods-DLCustomKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLCustomKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		332FBB1F54D8D3C114B88DC2E5E0A4B0 /* Pods-DLCustomKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLCustomKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3D2475D5B545EBF36D9C5650E9F782BE /* DLKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLKeyBoardView.h; path = DLCustomKeyBoard/Classes/DLKeyBoardView.h; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		3F5E84BE111F37C4FB261437916EEE10 /* Pods-DLCustomKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLCustomKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		41D5B0478676A969809CA43CD0E0F8BB /* Pods-DLCustomKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLCustomKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		44E9E4104EBC1FC03AEBA18FA6EE3519 /* DLCustomKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLCustomKeyBoard-dummy.m"; sourceTree = "<group>"; };
-		45DADE76635AF83D7BA27DF784A23BC2 /* UIColor+DLAddtion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DLAddtion.h"; path = "DLCustomKeyBoard/Classes/UIColor+DLAddtion.h"; sourceTree = "<group>"; };
+		4424A3EFBFED1D6A780462F25B3E3684 /* DLCustomKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLCustomKeyBoard.xcconfig; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		49AE7638297097D07713D0F8EFF7ACAC /* DLCustomKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCustomKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		4F70B0B158BD342C479174CF13AA6BD4 /* DLCustomKeyBoard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DLCustomKeyBoard.bundle; path = "DLCustomKeyBoard-DLCustomKeyBoard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5BA9773F44273F81F6C38DF8A8AC13C1 /* DLCustomField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLCustomField.m; path = DLCustomKeyBoard/Classes/DLCustomField.m; sourceTree = "<group>"; };
-		5FBE0091FD2480D0D161E26E2ACCD662 /* Pods_DLCustomKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCustomKeyBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		636C8EB4070244CF276C5AB1C23F1607 /* UIColor+DLAddtion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DLAddtion.m"; path = "DLCustomKeyBoard/Classes/UIColor+DLAddtion.m"; sourceTree = "<group>"; };
+		6439AB4429FA64CBA0EB4459B410502B /* Pods_DLCustomKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLCustomKeyBoard_Example.framework; path = "Pods-DLCustomKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		757BDBB44F7B3658804BCDDD6B131B64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC8325CF574BCD429F107AD116DFB17 /* delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "delete@3x.png"; sourceTree = "<group>"; };
+		74E81922B175B00D062E9354F73D4C91 /* capital@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "capital@3x.png"; sourceTree = "<group>"; };
+		74E8B482FE82FBFBC6BF16352FC4AF9C /* DLCustomKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLCustomKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		7661153C60AA4A96CC02D9ADCDD17BE2 /* capital@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "capital@2x.png"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		7B7AF147B6E313BA0EDD3CAB9B1BE6A8 /* UIColor+DLAddtion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DLAddtion.m"; path = "DLCustomKeyBoard/Classes/UIColor+DLAddtion.m"; sourceTree = "<group>"; };
 		7C7FF845BF644F022790C3A7D036E343 /* Pods-DLCustomKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCustomKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7F327203FA6FB29B03A9D69B19B0221B /* UIColor+DLAddtion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DLAddtion.h"; path = "DLCustomKeyBoard/Classes/UIColor+DLAddtion.h"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		88FA7A2EE5665963AF70DA6C903C814A /* Pods-DLCustomKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCustomKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8987EF6A5D1D1FA2CE3265EA9155BF97 /* DLConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLConst.h; path = DLCustomKeyBoard/Classes/DLConst.h; sourceTree = "<group>"; };
 		8BF8298A2373135493D54F6FA95C2A2E /* Pods-DLCustomKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLCustomKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8DC4650C03A825A25B64FD3FAB244158 /* DLCustomKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLCustomKeyBoard.modulemap; sourceTree = "<group>"; };
+		900EEB33C0CDE5828F37897EFA963592 /* delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		915F49F48DF586EC8765381F6166E6C5 /* DLCustomKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCustomKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		92090E071CBE9DA8D5DF4F499E82FCB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		92F98239560C63CE007AE00E587568A8 /* Pods-DLCustomKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCustomKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A83D3944386497DECB12261BFF3AFB10 /* DLCustomKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLCustomKeyBoard.xcconfig; sourceTree = "<group>"; };
+		A1B29B7F60918FB67412723160208561 /* ResourceBundle-DLCustomKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DLCustomKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		A5DCAC8265444BA155037A32BA650AF5 /* capital_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "capital_select@3x.png"; sourceTree = "<group>"; };
+		AAADD52460BBCB678DCC0BB9E4736262 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B7A79D74EC534A692D04763D66F49109 /* Pods-DLCustomKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLCustomKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B8CFDCA842F0C45B843063320849C830 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BA6292D6725F5C61FF87FBE12FBE0682 /* DLCustomField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLCustomField.h; path = DLCustomKeyBoard/Classes/DLCustomField.h; sourceTree = "<group>"; };
 		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BDAC1483C552BF52D0DD4A358A0902D4 /* DLCustomKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCustomKeyBoard-umbrella.h"; sourceTree = "<group>"; };
-		C1A297C11E5E97CC227D8CDED147EA6D /* Pods_DLCustomKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCustomKeyBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD96D8A2BF2EB51A2ADF05242435F7A5 /* Pods_DLCustomKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DLCustomKeyBoard_Tests.framework; path = "Pods-DLCustomKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB1F712BB278873553085F7DBDEC915E /* DLCustomKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DLCustomKeyBoard.podspec; sourceTree = "<group>"; };
 		CD040CA952CE2AE5196E6EF3F63E2093 /* Pods-DLCustomKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DLCustomKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
-		D4A7F69484DB7997EC16DFEA16579015 /* DLKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLKeyBoardView.m; path = DLCustomKeyBoard/Classes/DLKeyBoardView.m; sourceTree = "<group>"; };
+		CE1591FE14E9FA580115FDF3C837B86A /* DLKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLKeyBoardView.m; path = DLCustomKeyBoard/Classes/DLKeyBoardView.m; sourceTree = "<group>"; };
+		CF2970FC0AD74CB412B54AD033A645DB /* DLCustomKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLCustomKeyBoard.framework; path = DLCustomKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		D97B563883E1DF63584D0F354A424FA1 /* DLCustomField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLCustomField.m; path = DLCustomKeyBoard/Classes/DLCustomField.m; sourceTree = "<group>"; };
 		D982238D1BD0A83E4A66E51C008527AE /* Pods-DLCustomKeyBoard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLCustomKeyBoard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DC09C11ADE09C640570B679D392917FC /* DLCustomKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DLCustomKeyBoard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E02DD6C46C798D278815B5CD52AC59DE /* Pods-DLCustomKeyBoard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLCustomKeyBoard_Tests-resources.sh"; sourceTree = "<group>"; };
 		E1BCE5D03AEFD028C2EB0F740DD417B0 /* Pods-DLCustomKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLCustomKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E7FAD49CED396DAAE37CDC2AB06669D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EAB91B67E428500639642CC887B44FF8 /* Pods-DLCustomKeyBoard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLCustomKeyBoard_Example-resources.sh"; sourceTree = "<group>"; };
 		EB9032BA2872840AADAE195005336597 /* Pods-DLCustomKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DLCustomKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
+		ED3606E7E1197B541FD2DA36C1B25F98 /* DLCustomKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLCustomKeyBoard-prefix.pch"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F081EBFB8E6D445908E58BA1C8E7189C /* Pods-DLCustomKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLCustomKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		F1E238BA07833C901D567FB9839F2C45 /* DLConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLConst.h; path = DLCustomKeyBoard/Classes/DLConst.h; sourceTree = "<group>"; };
+		F2909AA4B869E39CD6A7D1122AF33D97 /* capital_select@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "capital_select@2x.png"; sourceTree = "<group>"; };
+		F4FFE557A20C5BD4884E8618D7D06C07 /* DLCustomKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLCustomKeyBoard.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1647946F727D882BE8AEEA0F41E00499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,19 +188,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AF3C2C28314B8A45A7DCA5737670969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D7ADB8F1B15EF9A857FEF053CAA3F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6F7836ACBD3CF32D585DAECBCB02581 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BEAD36DCB391C5C86FF6260873A4ABB3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C71DD509A4BC2F3CE5AF45509AE1BC09 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9022BD076D544519B614EEA0AD7B88CD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,10 +215,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D373BEBD8F8776A6A1B596F5CF8B7A9 /* Development Pods */ = {
+		17E6447E9FB38A6C67752A9F67F15DCF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45EACF5B24B204E30CC043668B60305E /* DLCustomKeyBoard */,
+				2E0B2D6D64AF65F50039EA575F28E0A0 /* DLCustomKeyBoard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -201,18 +230,36 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		238B21F1253E0DF9AD3ABA4A9DD54093 /* Products */ = {
+		2E0B2D6D64AF65F50039EA575F28E0A0 /* DLCustomKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
-				0072CA267D15D19277097A0862BE3E49 /* DLCustomKeyBoard.framework */,
-				B8CFDCA842F0C45B843063320849C830 /* FBSnapshotTestCase.framework */,
-				5FBE0091FD2480D0D161E26E2ACCD662 /* Pods_DLCustomKeyBoard_Example.framework */,
-				C1A297C11E5E97CC227D8CDED147EA6D /* Pods_DLCustomKeyBoard_Tests.framework */,
+				F1E238BA07833C901D567FB9839F2C45 /* DLConst.h */,
+				2C3B32AB098748562475F904EBEE5057 /* DLCustomField.h */,
+				D97B563883E1DF63584D0F354A424FA1 /* DLCustomField.m */,
+				08D9D011ACE819D1FF8B84C0A351067B /* DLKeyBoardView.h */,
+				CE1591FE14E9FA580115FDF3C837B86A /* DLKeyBoardView.m */,
+				7F327203FA6FB29B03A9D69B19B0221B /* UIColor+DLAddtion.h */,
+				7B7AF147B6E313BA0EDD3CAB9B1BE6A8 /* UIColor+DLAddtion.m */,
+				D0B4DC7D44791E76BEC821F9F4A31729 /* Pod */,
+				EE4F04065F2333FC64F03831B59EDC7B /* Resources */,
+				944ABD0BB80C996509256EFA798536E8 /* Support Files */,
 			);
-			name = Products;
+			name = DLCustomKeyBoard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3216C56966D1208CD19521D258A00DE3 /* capital.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				7661153C60AA4A96CC02D9ADCDD17BE2 /* capital@2x.png */,
+				74E81922B175B00D062E9354F73D4C91 /* capital@3x.png */,
+			);
+			name = capital.imageset;
+			path = DLCustomKeyBoard/Assets/capital.imageset;
 			sourceTree = "<group>";
 		};
 		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
@@ -240,43 +287,53 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		45EACF5B24B204E30CC043668B60305E /* DLCustomKeyBoard */ = {
+		77FDFAC05DF15F63205F57C06A9E0CD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8987EF6A5D1D1FA2CE3265EA9155BF97 /* DLConst.h */,
-				BA6292D6725F5C61FF87FBE12FBE0682 /* DLCustomField.h */,
-				5BA9773F44273F81F6C38DF8A8AC13C1 /* DLCustomField.m */,
-				3D2475D5B545EBF36D9C5650E9F782BE /* DLKeyBoardView.h */,
-				D4A7F69484DB7997EC16DFEA16579015 /* DLKeyBoardView.m */,
-				45DADE76635AF83D7BA27DF784A23BC2 /* UIColor+DLAddtion.h */,
-				636C8EB4070244CF276C5AB1C23F1607 /* UIColor+DLAddtion.m */,
-				6B13A0F71C78EE8B9AB1675361C32F23 /* Pod */,
-				B3D25DBCB5FC04F433F2220E3C15206D /* Support Files */,
+				4F70B0B158BD342C479174CF13AA6BD4 /* DLCustomKeyBoard.bundle */,
+				CF2970FC0AD74CB412B54AD033A645DB /* DLCustomKeyBoard.framework */,
+				0210C701B7BD18481D7A44D18726A2C0 /* FBSnapshotTestCase.framework */,
+				6439AB4429FA64CBA0EB4459B410502B /* Pods_DLCustomKeyBoard_Example.framework */,
+				BD96D8A2BF2EB51A2ADF05242435F7A5 /* Pods_DLCustomKeyBoard_Tests.framework */,
 			);
-			name = DLCustomKeyBoard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6B13A0F71C78EE8B9AB1675361C32F23 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CB1F712BB278873553085F7DBDEC915E /* DLCustomKeyBoard.podspec */,
-				0ED40886DAE1EA6E5AECE52714717314 /* LICENSE */,
-				E7FAD49CED396DAAE37CDC2AB06669D3 /* README.md */,
-			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1D373BEBD8F8776A6A1B596F5CF8B7A9 /* Development Pods */,
+				17E6447E9FB38A6C67752A9F67F15DCF /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				238B21F1253E0DF9AD3ABA4A9DD54093 /* Products */,
+				77FDFAC05DF15F63205F57C06A9E0CD2 /* Products */,
 				A799509EC4BC3758A71722124BE19A4F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		91CD4CEBF1D59680812CE2A4BCBF1D8E /* delete.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				900EEB33C0CDE5828F37897EFA963592 /* delete@2x.png */,
+				6DC8325CF574BCD429F107AD116DFB17 /* delete@3x.png */,
+			);
+			name = delete.imageset;
+			path = DLCustomKeyBoard/Assets/delete.imageset;
+			sourceTree = "<group>";
+		};
+		944ABD0BB80C996509256EFA798536E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE557A20C5BD4884E8618D7D06C07 /* DLCustomKeyBoard.modulemap */,
+				4424A3EFBFED1D6A780462F25B3E3684 /* DLCustomKeyBoard.xcconfig */,
+				74E8B482FE82FBFBC6BF16352FC4AF9C /* DLCustomKeyBoard-dummy.m */,
+				ED3606E7E1197B541FD2DA36C1B25F98 /* DLCustomKeyBoard-prefix.pch */,
+				915F49F48DF586EC8765381F6166E6C5 /* DLCustomKeyBoard-umbrella.h */,
+				0B8F45C3666891B67C7E43D10E17EF5C /* Info.plist */,
+				A1B29B7F60918FB67412723160208561 /* ResourceBundle-DLCustomKeyBoard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DLCustomKeyBoard";
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -296,20 +353,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B3D25DBCB5FC04F433F2220E3C15206D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8DC4650C03A825A25B64FD3FAB244158 /* DLCustomKeyBoard.modulemap */,
-				A83D3944386497DECB12261BFF3AFB10 /* DLCustomKeyBoard.xcconfig */,
-				44E9E4104EBC1FC03AEBA18FA6EE3519 /* DLCustomKeyBoard-dummy.m */,
-				49AE7638297097D07713D0F8EFF7ACAC /* DLCustomKeyBoard-prefix.pch */,
-				BDAC1483C552BF52D0DD4A358A0902D4 /* DLCustomKeyBoard-umbrella.h */,
-				757BDBB44F7B3658804BCDDD6B131B64 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DLCustomKeyBoard";
-			sourceTree = "<group>";
-		};
 		B6EF8F14D0C4F755B597BDC4300CD613 /* Pods-DLCustomKeyBoard_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +369,26 @@
 			);
 			name = "Pods-DLCustomKeyBoard_Tests";
 			path = "Target Support Files/Pods-DLCustomKeyBoard_Tests";
+			sourceTree = "<group>";
+		};
+		D0B4DC7D44791E76BEC821F9F4A31729 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DC09C11ADE09C640570B679D392917FC /* DLCustomKeyBoard.podspec */,
+				AAADD52460BBCB678DCC0BB9E4736262 /* LICENSE */,
+				92090E071CBE9DA8D5DF4F499E82FCB8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EE4F04065F2333FC64F03831B59EDC7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3216C56966D1208CD19521D258A00DE3 /* capital.imageset */,
+				F736E56CCAC321BBE5BE7513DE4248F1 /* capital_select.imageset */,
+				91CD4CEBF1D59680812CE2A4BCBF1D8E /* delete.imageset */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		EE70479E12DDBC773E3F88C6C6859FB1 /* Pods-DLCustomKeyBoard_Example */ = {
@@ -367,6 +430,16 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		F736E56CCAC321BBE5BE7513DE4248F1 /* capital_select.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				F2909AA4B869E39CD6A7D1122AF33D97 /* capital_select@2x.png */,
+				A5DCAC8265444BA155037A32BA650AF5 /* capital_select@3x.png */,
+			);
+			name = capital_select.imageset;
+			path = DLCustomKeyBoard/Assets/capital_select.imageset;
+			sourceTree = "<group>";
+		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,23 +451,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		034E7A9502CB6B6622202B2A91B75362 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD59BC18BE46F881AB709D0D248301E5 /* DLConst.h in Headers */,
-				152FF004C05D4416F25780E2CA05E6A7 /* DLCustomField.h in Headers */,
-				96208231BAFA23A8180C259BC87433E8 /* DLCustomKeyBoard-umbrella.h in Headers */,
-				F734BBAF2267B1CA9B35FA08A4D99957 /* DLKeyBoardView.h in Headers */,
-				11CE34D5BBA4B48BDB652A600CB8BB1E /* UIColor+DLAddtion.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		59F3A1E162DE7A1FFC20359921F86470 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A522081060EEFCB17845D2CEE3FBC80F /* Pods-DLCustomKeyBoard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C4168B66760DFA1F2B8992019DDBAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7FFD01AD0EDA7C4E0BFFF9CC22411D /* DLConst.h in Headers */,
+				1B7196E78CE55590230B8BCB56403940 /* DLCustomField.h in Headers */,
+				6EF316542A53E938FF9FDC49806EF6A3 /* DLCustomKeyBoard-umbrella.h in Headers */,
+				00952E7F1ECC0B25140AC12FCE4D7A6E /* DLKeyBoardView.h in Headers */,
+				FC7790742564A1B6860B478052101681 /* UIColor+DLAddtion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +512,7 @@
 			);
 			name = "Pods-DLCustomKeyBoard_Example";
 			productName = "Pods-DLCustomKeyBoard_Example";
-			productReference = 5FBE0091FD2480D0D161E26E2ACCD662 /* Pods_DLCustomKeyBoard_Example.framework */;
+			productReference = 6439AB4429FA64CBA0EB4459B410502B /* Pods_DLCustomKeyBoard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -456,24 +529,26 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = B8CFDCA842F0C45B843063320849C830 /* FBSnapshotTestCase.framework */;
+			productReference = 0210C701B7BD18481D7A44D18726A2C0 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4D9E79C468CB4DD913C10D467D346EC7 /* DLCustomKeyBoard */ = {
+		778D742EA106DF65D57D949D23672F0D /* DLCustomKeyBoard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C6B8567981984EB72468542BE715C2A /* Build configuration list for PBXNativeTarget "DLCustomKeyBoard" */;
+			buildConfigurationList = 97C00DE4A06E44B9A456DB0BDF031465 /* Build configuration list for PBXNativeTarget "DLCustomKeyBoard" */;
 			buildPhases = (
-				8B76B72E37402CD414F83B5849E924C6 /* Sources */,
-				C71DD509A4BC2F3CE5AF45509AE1BC09 /* Frameworks */,
-				034E7A9502CB6B6622202B2A91B75362 /* Headers */,
+				E906BBAE52C6A4661DD6FBB906463405 /* Sources */,
+				7AF3C2C28314B8A45A7DCA5737670969 /* Frameworks */,
+				7153B209A36D0DAE22EC97089A60C3D9 /* Resources */,
+				81C4168B66760DFA1F2B8992019DDBAA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E2578A34EDA0E745A991D0B94645BD25 /* PBXTargetDependency */,
 			);
 			name = DLCustomKeyBoard;
 			productName = DLCustomKeyBoard;
-			productReference = 0072CA267D15D19277097A0862BE3E49 /* DLCustomKeyBoard.framework */;
+			productReference = CF2970FC0AD74CB412B54AD033A645DB /* DLCustomKeyBoard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		815EA032E3C707D024B6C60399031639 /* Pods-DLCustomKeyBoard_Tests */ = {
@@ -492,8 +567,25 @@
 			);
 			name = "Pods-DLCustomKeyBoard_Tests";
 			productName = "Pods-DLCustomKeyBoard_Tests";
-			productReference = C1A297C11E5E97CC227D8CDED147EA6D /* Pods_DLCustomKeyBoard_Tests.framework */;
+			productReference = BD96D8A2BF2EB51A2ADF05242435F7A5 /* Pods_DLCustomKeyBoard_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		F3C4115570385EB3E2DD7F333B876071 /* DLCustomKeyBoard-DLCustomKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD4E33AE34DE1BF41441B3B8F8380E6 /* Build configuration list for PBXNativeTarget "DLCustomKeyBoard-DLCustomKeyBoard" */;
+			buildPhases = (
+				BA76CC165A6DA1AEE9EE012B5E09C7F5 /* Sources */,
+				1647946F727D882BE8AEEA0F41E00499 /* Frameworks */,
+				EBA92A3C3ED21F0C558728547C833014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DLCustomKeyBoard-DLCustomKeyBoard";
+			productName = "DLCustomKeyBoard-DLCustomKeyBoard";
+			productReference = 4F70B0B158BD342C479174CF13AA6BD4 /* DLCustomKeyBoard.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -512,17 +604,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 238B21F1253E0DF9AD3ABA4A9DD54093 /* Products */;
+			productRefGroup = 77FDFAC05DF15F63205F57C06A9E0CD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D9E79C468CB4DD913C10D467D346EC7 /* DLCustomKeyBoard */,
+				778D742EA106DF65D57D949D23672F0D /* DLCustomKeyBoard */,
+				F3C4115570385EB3E2DD7F333B876071 /* DLCustomKeyBoard-DLCustomKeyBoard */,
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
 				322307E5EFB4F10ED6285C1AB65D0E02 /* Pods-DLCustomKeyBoard_Example */,
 				815EA032E3C707D024B6C60399031639 /* Pods-DLCustomKeyBoard_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7153B209A36D0DAE22EC97089A60C3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DDC4B10B93F983CA1F60D0CAD2046 /* DLCustomKeyBoard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA92A3C3ED21F0C558728547C833014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543AF1E312B704124B81AE2C6912E057 /* capital@2x.png in Resources */,
+				1F851276D5C8F5CDF7B6F38407CCBFA6 /* capital@3x.png in Resources */,
+				2B1671C31EB8923B5710C79D9A04ED0A /* capital_select@2x.png in Resources */,
+				C2F0D5753F6CFFA6BDCD3376C74528B6 /* capital_select@3x.png in Resources */,
+				4B0F10B808C01E8BEB193A4061B9775E /* delete@2x.png in Resources */,
+				F86C1C9221EFB311A3850961608BA9FE /* delete@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04B8FBAC02A05F1C76A0207CCF757013 /* Sources */ = {
@@ -533,14 +650,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B76B72E37402CD414F83B5849E924C6 /* Sources */ = {
+		BA76CC165A6DA1AEE9EE012B5E09C7F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F133565D92F20DA14E94E712FF7A9DE3 /* DLCustomField.m in Sources */,
-				3FE318D45AAD5471C360C2E2E8F5A4EE /* DLCustomKeyBoard-dummy.m in Sources */,
-				EDD0784C19131244A451E63A9E2DBCD2 /* DLKeyBoardView.m in Sources */,
-				058392748DB99C83243FAFEBE0BFE371 /* UIColor+DLAddtion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,13 +681,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E906BBAE52C6A4661DD6FBB906463405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75150CB4A124D1BEA43ABAB2F8EAA554 /* DLCustomField.m in Sources */,
+				7A4B3E740A8E5FAB7A0CA0FB53F1408B /* DLCustomKeyBoard-dummy.m in Sources */,
+				3768E25A09A64B4BF6ACC3BE47674485 /* DLKeyBoardView.m in Sources */,
+				44FCCB998D7859AD8D7AD2F6BBD9FA69 /* UIColor+DLAddtion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		1EEE5210385AFDDC8E58D0F263357032 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DLCustomKeyBoard;
-			target = 4D9E79C468CB4DD913C10D467D346EC7 /* DLCustomKeyBoard */;
+			target = 778D742EA106DF65D57D949D23672F0D /* DLCustomKeyBoard */;
 			targetProxy = 76EBB4DF1A4BF0001870E04AF2430995 /* PBXContainerItemProxy */;
 		};
 		5DE49686C071ACAC999660766C8E3C07 /* PBXTargetDependency */ = {
@@ -588,6 +712,12 @@
 			name = FBSnapshotTestCase;
 			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
 			targetProxy = BE3869F7B89C5FF67F58F77A7F818B20 /* PBXContainerItemProxy */;
+		};
+		E2578A34EDA0E745A991D0B94645BD25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DLCustomKeyBoard-DLCustomKeyBoard";
+			target = F3C4115570385EB3E2DD7F333B876071 /* DLCustomKeyBoard-DLCustomKeyBoard */;
+			targetProxy = EA9B7A29854DE39CA5B9EE12BF5EB78C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -624,67 +754,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1480F36E87B000DF0715D8B02E601DF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A83D3944386497DECB12261BFF3AFB10 /* DLCustomKeyBoard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DLCustomKeyBoard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard.modulemap";
-				PRODUCT_MODULE_NAME = DLCustomKeyBoard;
-				PRODUCT_NAME = DLCustomKeyBoard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		14B4CD61B8FC2777F09C38B8599A346B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A83D3944386497DECB12261BFF3AFB10 /* DLCustomKeyBoard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DLCustomKeyBoard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard.modulemap";
-				PRODUCT_MODULE_NAME = DLCustomKeyBoard;
-				PRODUCT_NAME = DLCustomKeyBoard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -746,6 +815,52 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38B3602C9F6CBCD65A6A61D3E11C7719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4424A3EFBFED1D6A780462F25B3E3684 /* DLCustomKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DLCustomKeyBoard";
+				INFOPLIST_FILE = "Target Support Files/DLCustomKeyBoard/ResourceBundle-DLCustomKeyBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DLCustomKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		47158FF0756E03A2B77C62946F41D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4424A3EFBFED1D6A780462F25B3E3684 /* DLCustomKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLCustomKeyBoard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = DLCustomKeyBoard;
+				PRODUCT_NAME = DLCustomKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -881,6 +996,37 @@
 			};
 			name = Release;
 		};
+		D8CE008F54DAD21D62CB5DB3B66F776B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4424A3EFBFED1D6A780462F25B3E3684 /* DLCustomKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLCustomKeyBoard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLCustomKeyBoard/DLCustomKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = DLCustomKeyBoard;
+				PRODUCT_NAME = DLCustomKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		ECCA9B4C2421967734A632C141E9914E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B7A79D74EC534A692D04763D66F49109 /* Pods-DLCustomKeyBoard_Tests.debug.xcconfig */;
@@ -974,6 +1120,22 @@
 			};
 			name = Release;
 		};
+		FFE611906273DF03C44F425718AF7F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4424A3EFBFED1D6A780462F25B3E3684 /* DLCustomKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DLCustomKeyBoard";
+				INFOPLIST_FILE = "Target Support Files/DLCustomKeyBoard/ResourceBundle-DLCustomKeyBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DLCustomKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -995,11 +1157,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C6B8567981984EB72468542BE715C2A /* Build configuration list for PBXNativeTarget "DLCustomKeyBoard" */ = {
+		97C00DE4A06E44B9A456DB0BDF031465 /* Build configuration list for PBXNativeTarget "DLCustomKeyBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1480F36E87B000DF0715D8B02E601DF4 /* Debug */,
-				14B4CD61B8FC2777F09C38B8599A346B /* Release */,
+				47158FF0756E03A2B77C62946F41D8C1 /* Debug */,
+				D8CE008F54DAD21D62CB5DB3B66F776B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD4E33AE34DE1BF41441B3B8F8380E6 /* Build configuration list for PBXNativeTarget "DLCustomKeyBoard-DLCustomKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B3602C9F6CBCD65A6A61D3E11C7719 /* Debug */,
+				FFE611906273DF03C44F425718AF7F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = ''
+  s.description      = 'A fully customizable keyboard with cocoapods import support, including numeric and alphabetic keyboard with scrambled and sequential support'
 
   s.homepage         = 'https://github.com/alreadyRight/DLCustomKeyBoard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

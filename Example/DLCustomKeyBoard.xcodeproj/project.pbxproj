@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2714E4B4A10B950646F5091C /* Pods_DLCustomKeyBoard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5217398F228DF0A21C433445 /* Pods_DLCustomKeyBoard_Example.framework */; };
+		184B5D12684CA35A4F78D81A /* Pods_DLCustomKeyBoard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A49C2384300A34E9EF8843 /* Pods_DLCustomKeyBoard_Example.framework */; };
+		3190C2424E91EF7236D701A4 /* Pods_DLCustomKeyBoard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4840EAFDA60A5785F114598C /* Pods_DLCustomKeyBoard_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7C4D2AF8E3FF6A636A30F9E2 /* Pods_DLCustomKeyBoard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F30C1BE8DF4D738DF2B296 /* Pods_DLCustomKeyBoard_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +39,7 @@
 /* Begin PBXFileReference section */
 		0369DD46A269FA5E895DDB9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1B08F7F239519EDD2395D47D /* Pods-DLCustomKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLCustomKeyBoard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLCustomKeyBoard_Tests/Pods-DLCustomKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		50F30C1BE8DF4D738DF2B296 /* Pods_DLCustomKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCustomKeyBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5217398F228DF0A21C433445 /* Pods_DLCustomKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCustomKeyBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4840EAFDA60A5785F114598C /* Pods_DLCustomKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCustomKeyBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DLCustomKeyBoard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLCustomKeyBoard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,6 +66,7 @@
 		AF206203F1FB4819AAAEBA8E /* DLCustomKeyBoard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DLCustomKeyBoard.podspec; path = ../DLCustomKeyBoard.podspec; sourceTree = "<group>"; };
 		BCF4DD8B577FB16B05277250 /* Pods-DLCustomKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLCustomKeyBoard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLCustomKeyBoard_Example/Pods-DLCustomKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2A37D64EC61E1E56B928A45 /* Pods-DLCustomKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLCustomKeyBoard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLCustomKeyBoard_Tests/Pods-DLCustomKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A49C2384300A34E9EF8843 /* Pods_DLCustomKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLCustomKeyBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2714E4B4A10B950646F5091C /* Pods_DLCustomKeyBoard_Example.framework in Frameworks */,
+				184B5D12684CA35A4F78D81A /* Pods_DLCustomKeyBoard_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7C4D2AF8E3FF6A636A30F9E2 /* Pods_DLCustomKeyBoard_Tests.framework in Frameworks */,
+				3190C2424E91EF7236D701A4 /* Pods_DLCustomKeyBoard_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				5217398F228DF0A21C433445 /* Pods_DLCustomKeyBoard_Example.framework */,
-				50F30C1BE8DF4D738DF2B296 /* Pods_DLCustomKeyBoard_Tests.framework */,
+				E5A49C2384300A34E9EF8843 /* Pods_DLCustomKeyBoard_Example.framework */,
+				4840EAFDA60A5785F114598C /* Pods_DLCustomKeyBoard_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				22C49A76028139850E659297 /* [CP] Embed Pods Frameworks */,
+				12FF53F5DC226E120DFD7640 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,7 +226,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				FF05FAE121F76D0A96976F90 /* [CP] Embed Pods Frameworks */,
+				1419685B3CAAFB82FCE4C511 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +295,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22C49A76028139850E659297 /* [CP] Embed Pods Frameworks */ = {
+		12FF53F5DC226E120DFD7640 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,6 +311,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLCustomKeyBoard_Example/Pods-DLCustomKeyBoard_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1419685B3CAAFB82FCE4C511 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DLCustomKeyBoard_Tests/Pods-DLCustomKeyBoard_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLCustomKeyBoard_Tests/Pods-DLCustomKeyBoard_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AC260869382090E93E8DF195 /* [CP] Check Pods Manifest.lock */ = {
@@ -347,24 +365,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF05FAE121F76D0A96976F90 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DLCustomKeyBoard_Tests/Pods-DLCustomKeyBoard_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLCustomKeyBoard_Tests/Pods-DLCustomKeyBoard_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -7,7 +7,7 @@
 //
 
 #import "DLViewController.h"
-
+#import "DLCustomField.h"
 @interface DLViewController ()
 
 @end
@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	DLCustomField *field = [[DLCustomField alloc]initWithFrame:CGRectMake(80, 80, 250, 44)];
+	field.placeholder = @"测试placeholder";
+	[self.view addSubview:field];
 }
 
 - (void)didReceiveMemoryWarning
