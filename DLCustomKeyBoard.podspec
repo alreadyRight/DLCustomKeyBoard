@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DLCustomKeyBoard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DLCustomKeyBoard.'
+  s.summary          = 'a scrambled custom keyboard'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,24 +17,22 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = ''
 
-  s.homepage         = 'https://github.com/18358588190@163.com/DLCustomKeyBoard'
+  s.homepage         = 'https://github.com/alreadyRight/DLCustomKeyBoard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '18358588190@163.com' => 'bingfeng.z@sunyard.com' }
-  s.source           = { :git => 'https://github.com/18358588190@163.com/DLCustomKeyBoard.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/alreadyRight/DLCustomKeyBoard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DLCustomKeyBoard/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DLCustomKeyBoard' => ['DLCustomKeyBoard/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'DLCustomKeyBoard' => ['DLCustomKeyBoard/Assets/**/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

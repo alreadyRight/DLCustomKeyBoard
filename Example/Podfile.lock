@@ -1,0 +1,27 @@
+PODS:
+  - DLCustomKeyBoard (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DLCustomKeyBoard (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DLCustomKeyBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLCustomKeyBoard: aad23e951d74a439a4210760811ca6b2703e6ada
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 33cacb383cf0ea1dda7d0e263fd13285519d7433
+
+COCOAPODS: 1.5.3
